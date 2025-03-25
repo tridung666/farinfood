@@ -8,7 +8,9 @@ function App() {
     <BrowserRouter>
       <div className="flex flex-col min-h-screen">
         <Header />
-        <AnimatedRoutes />
+        <main className="flex-grow">
+          <AnimatedRoutes />
+        </main>
         <Footer />
       </div>
     </BrowserRouter>
@@ -16,3 +18,4 @@ function App() {
 }
 
 export default App;
+        
